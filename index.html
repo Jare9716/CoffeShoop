@@ -4,9 +4,168 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Coffee-Shoop</title>
 </head>
 <body>
-    
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="" id="btn-acerca-de">About</a>
+                <a href="" id="btn-menu">Menu</a>
+                <a href="" id="btn-galeria">Galery</a>
+                <a href="" id="btn-ubicacion">Ubication</a>
+            </nav>
+
+            <div class="textos">
+                <h1 class="nombre"> Astromo <span> Coffee</span></h1>
+                <h3>Straight to your doorstep. We don't roast our beans until we have your order. Every order is roasted and shipped the same day.</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/acerca-de.jpg" alt="shoop space" width="1000">
+                </div>
+                <article>
+                    <h3>About</h3>
+                    <p>We ship freshly roasted coffee to customers around the world. Experience the goodness of freshly roasted coffee beans delivered to your doorstep.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="platillos">Menu</h3>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu2">
+                        <article>
+                            <p class="categoria">
+                                To Drink
+                                <div class="platillo">
+                                    <p class="nombre">Espresso</p>
+                                    <p class="precio">5.00$</p>
+                                    <p class="descripcion">Hot-Cold-Freeze</p>
+                                </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">latte</p>
+                                    <p class="precio">4.00$</p>
+                                    <p class="descripcion">Hot-Cold-Freeze</p>
+                                </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">Mocha</p>
+                                    <p class="precio">4.50$</p>
+                                    <p class="descripcion">Hot-Cold-Freeze</p>
+                                </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">Chocolate</p>
+                                    <p class="precio">5.50$</p>
+                                    <p class="descripcion">Hot-Cold-Freeze</p>
+                                </div>
+                            </p>
+                        </article>
+
+                        <article>
+                            <p class="categoria">
+                                To Eat
+                                <div class="platillo">
+                                    <p class="nombre">Cupcake</p>
+                                    <p class="precio">2.00$</p>
+                                    <p class="descripcion">Hot-Cold</p>
+                                </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">Cheescake</p>
+                                    <p class="precio">3.00$</p>
+                                    <p class="descripcion">Hot-Cold</p>
+                                </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">Croissant</p>
+                                    <p class="precio">1.50$</p>
+                                    <p class="descripcion">Hot-Cold</p>
+                                </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">Doughnut</p>
+                                    <p class="precio">2.50$</p>
+                                    <p class="descripcion">Hot-Cold</p>
+                                </div>
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="galeria" id="galeria">
+            <div class="foto">
+                <img src="img/1.jpg" alt="" width="400">
+            </div>
+            <div class="foto">
+                <img src="img/2.jpg" alt="" width="400">
+            </div>
+            <div class="foto">
+                <img src="img/3.jpg" alt="" width="400">
+            </div>
+            <div class="foto">
+                <img src="img/4.jpg" alt="" width="400">
+            </div>
+            <div class="foto">
+                <img src="img/5.jpg" alt="" width="400">
+            </div>
+            <div class="foto">
+                <img src="img/6.jpg" alt="" width="400">
+            </div>
+            <div class="foto">
+                <img src="img/7.jpg" alt="" width="400">
+            </div>
+            <div class="foto">
+                <img src="img/8.jpg" alt="" width="400">
+            </div>
+            
+        </section>
+
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubication</h3>
+                <div class="direccion">
+                    <p class="calle">2912 Primose Lane <br/ >Anaheim, CA 92806</p>
+                    <p class="telefono">(57) 400-2479</p>
+                    <p class="correo">Astromo@gmail.com</p>
+                </div>
+
+                <div class="horarios">
+                    <h4>Hours</h4>
+                    <p class="entre-semana">Monday to Fryday <br> 8:00am - 8:00pm</p>
+                    <p class="entre-semana">Saturday to Sunday <br> 8:00am - 9:00pm</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mapa">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497.82097685415806!2d-76.53638024448253!3d3.454705282654488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a66fc8e64939%3A0xbb61bc6d3a788a02!2sGranada%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses-419!2sco!4v1670471849309!5m2!1ses-419!2sco" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </section>
+
+    <footer>
+        <div class="contenedor">
+            <div class="copyright">
+                <p>copyright J.A.R.E</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
