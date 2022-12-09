@@ -9,7 +9,7 @@ jQuery
 
 # Images
 
-<img src="img/SC1" alt="drawing" width="1000"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="img/SC1.png" alt="drawing" width="1000"/> &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="ImageApp/Captura de pantalla 2022-11-17 175209.png" alt="drawing" width="1000"/> &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="ImageApp/Captura de pantalla 2022-11-17 175215.png" alt="drawing" width="1000"/> &nbsp;&nbsp;&nbsp;&nbsp; 
 <img src="ImageApp/Captura de pantalla 2022-11-17 175223.png" alt="drawing" width="1000"/> &nbsp;&nbsp;&nbsp;&nbsp; 
