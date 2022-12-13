@@ -9,7 +9,7 @@ jQuery
 
 # Web Page
 
-[Coffee Shop](https://jare9716.github.io/CoffeShoop/)
+[Coffee Shop](https://jare9716.github.io/Store/)
 
 # Images
 
